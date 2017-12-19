@@ -23,7 +23,8 @@ pip install click
 
 ### Installing
 change the address & port as needed
-To run you can use
+
+To run you can use:
 ```
 python LSR.py
 ```
