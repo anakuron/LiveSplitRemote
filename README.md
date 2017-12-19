@@ -6,6 +6,10 @@ Python remote for LiveSplit server
 https://github.com/LiveSplit/LiveSplit.Server
 ```
 
+### Example
+
+![connection example](example-pictures/Connection-example.png?raw=true "Connection")
+
 ### Prerequisites
 You need to have LiveSplit installed & configured before using this.
 click library might not be installed by default.
