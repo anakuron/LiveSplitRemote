@@ -11,7 +11,7 @@ This remote is made for [LiveSplit Server](https://github.com/LiveSplit/LiveSpli
 ### Example setups
 
 ![connection example](example-pictures/Connection-example.svg "Connection")
-You should have setup of at least two computers to benefit from a remote in the first place.
+You should have a setup of at least two computers to benefit from a remote in the first place.
 Computer 1 is used for streaming and running the LiveSplit timer;
 Computer 2 is either the one you have next to your gaming setup as a remote & chat, or you are using it directly to play.
 
@@ -19,16 +19,16 @@ Computer 2 is either the one you have next to your gaming setup as a remote & ch
 You need to have LiveSplit installed & configured with LiveSplit server before using this.
 Download [LiveSplit](https://livesplit.org) from their website and get the [LiveSplit Server](https://github.com/LiveSplit/LiveSplit.Server) from their git repo.
 
-click library for python is not installed by default.
+click -library for python is not installed by default.
 You can install it via pip (as a root)
 ```
 pip install click
 ```
 
 ### Installing
-change the address & port as needed editing the LSR.py file
+change the address & port as needed by editing the LSR.py file
 
-default is ```ip = "192.168.1.151"```
+default ip is ```ip = "192.168.1.151"```
 default port is ```16834```
 
 To run you can use:
