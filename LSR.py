@@ -1,12 +1,16 @@
 import socket
 import sys
-import click # pip install click
+import click # install using "pip install click"
 import time
 
-sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.connect(('192.168.3.120', 16834))
+ip = "192.168.1.151" # change this value to correct ip
+portnumber = 16834 # change this value to the correct port number
 
-#print("t=current time s=start/split r=reset p=pause q=quit")
+print("Trying to connect to \033[1;32;40m")+ip+"\033[0;37;40m"
+
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+sock.connect((ip, portnumber))
+print("\033[1;32;40mConnected\033[0;37;40m\r\n")
 
 while True:
     print("t=current time | s=start/split | r=reset | p=pause (c=resume) | q=quit")
