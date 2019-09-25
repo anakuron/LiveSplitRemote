@@ -29,6 +29,7 @@ pip install click
 change the address & port as needed editing the LSR.py file
 
 default is ```ip = "192.168.1.151"```
+default port is ```16834```
 
 To run you can use:
 ```
